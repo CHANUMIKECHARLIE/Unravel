@@ -18,29 +18,29 @@ This project demonstrates a multi-module Java application to handle:
 ## Modules & Features
 
 🔐 **SessionManager**
-Thread-safe session tracking
-Prevents memory leaks
-Includes session cleanup logic
+- Thread-safe session tracking
+- Prevents memory leaks
+- Includes session cleanup logic
 
 🧠 **MemoryManager**
-Simulates large session data usage
-Uses LRU cache to prevent memory leaks
-Logs memory usage for analysis
+- Simulates large session data usage
+- Uses LRU cache to prevent memory leaks
+- Logs memory usage for analysis
 
 ⚙️ **LogProcessor**
-Priority-based producer-consumer model
-Uses thread pools and PriorityBlockingQueue
-Ensures critical tasks are processed first
+- Priority-based producer-consumer model
+- Uses thread pools and PriorityBlockingQueue
+- Ensures critical tasks are processed first
 
 💥 **DeadlockSimulator**
-Demonstrates common deadlock
-Fixed using ordered locking strategy
-Thread-safe and deadlock-free
+- Demonstrates common deadlock
+- Fixed using ordered locking strategy
+- Thread-safe and deadlock-free
 
 🗄️ **DatabaseManager**
-Uses HikariCP with Spring Boot
-Logs slow connections and pool underutilization
-Includes monitoring with TimerTask
+- Uses HikariCP with Spring Boot
+- Logs slow connections and pool underutilization
+- Includes monitoring with TimerTask
 
 
 ## 🧩 Dependencies
